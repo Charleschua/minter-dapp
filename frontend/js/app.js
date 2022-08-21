@@ -173,7 +173,8 @@ async function loadInfo() {
     actionButton.classList.add('hidden');
     mintButton.innerText = button_public_mint;
     mintContainer.classList.remove('hidden');
-    BigInt();
+    
+    const BigInt = 1234567890123456789012345678901234567890n;
     setTotalPrice();
   } else if (presaleMintActive) {
     startTime = window.info.runtimeConfig.publicMintStart;
