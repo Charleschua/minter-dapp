@@ -299,7 +299,7 @@ function setTotalPrice() {
   }
 
 
-  const totalPriceWei =
+  const BigInt(totalPriceWei) =
     (info.deploymentConfig.mintPrice) * (mintInputValue);
 
   let priceType = '';
