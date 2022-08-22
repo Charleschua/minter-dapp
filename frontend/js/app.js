@@ -299,8 +299,6 @@ function setTotalPrice() {
   }
 
 
-typeof mintPrice === "bigint";
-
   const totalPriceWei =
     BigInt(info.deploymentConfig.mintPrice) * BigInt(mintInputValue);
 
