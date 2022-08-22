@@ -300,7 +300,7 @@ function setTotalPrice() {
 
 
   const totalPriceWei =
-    BigInt(info.deploymentConfig.mintPrice) * BigInt(mintInputValue);
+    (info.deploymentConfig.mintPrice) * (mintInputValue);
 
   let priceType = '';
   if (chain === 'rinkeby' || chain === 'ethereum') {
@@ -308,7 +308,7 @@ function setTotalPrice() {
   } else if (chain === 'polygon') {
     priceType = 'MATIC';
   }
-  const price = web3.utils.fromWei(totalPriceWei.toString(), 'ether');
+  const price = web3.utils.fromWei(BigInt(totalPriceWei).toString(), 'ether');
   totalPrice.innerText = `${price} ${priceType}`;
   mintButton.disabled = false;
   mintInput.disabled = false;
