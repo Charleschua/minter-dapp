@@ -297,7 +297,9 @@ function setTotalPrice() {
     mintInput.disabled = true;
     return;
   }
-  BigInt();
+
+
+typeof mintPrice === "bigint";
 
   const totalPriceWei =
     BigInt(info.deploymentConfig.mintPrice) * BigInt(mintInputValue);
