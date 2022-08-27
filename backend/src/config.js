@@ -67,7 +67,7 @@ const ROYALTY_ADDRESS = '0xC1CF7537c442157B104358fc86cA19F89ef4c823'; // Address
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = [
-  '0x1062e1654a660702C056B4043AE101Ec3CC2AfF1','0x5E8842ef7d97E058c3054a9Af6Cbc3c5d46F7173','0x7F7E74fb8bf9EF9D0f1A07afdC6dD8F09cb89e89','0x85b3c5fAf50c0ECBFB739730525C350226886aD7'
+  '0x1062e1654a660702C056B4043AE101Ec3CC2AfF1','0x5E8842ef7d97E058c3054a9Af6Cbc3c5d46F7173','0x7F7E74fb8bf9EF9D0f1A07afdC6dD8F09cb89e89'
 ]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
